@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+html {
+  min-height: 100%;
+  background: linear-gradient(135deg, pink, purple);
+}
+
+body {
+  /* border: 1px solid green; */
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.container {
+  width: 50%;
+  min-height: 10%;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  border: 3px solid black;
+}
+
+.taskContainer {
+  display: flex;
+}
+
+#inputArea {
+  background-color: transparent;
+  font-size: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 80%;
+}
+
+#addButton {
+  margin-left: auto;
+  background-color: transparent;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+label {
+  /* background-color: transparent; */
+  /* border: 2px solid black; */
+  /* border-radius: 10px; */
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+label img {
+  /* border: 1px solid green; */
+  width: 10%;
+  height: auto;
+}
+
+label input[type="checkbox"] {
+  appearance: none;
+}
+
+p {
+  /* border: 1px solid green; */
+  font-size: 40px;
+  width: 80%;
+  color: #1eafeb;
+}
+
+i {
+  /* border: 1px solid green; */
+  font-size: 55px !important;
+}
+/* div {
+  /* background-color: darkgoldenrod; */
+/* height: 70vh; */
+/* width: 70vw; */
+/* border: 10px solid red; */
+/* border-color: red; */
+/* } */
+
+.l {
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer; /* Makes the "Click" text clickable */
+}
